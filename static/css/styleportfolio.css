@@ -1,0 +1,178 @@
+/*font-family: 'Quattrocento Sans', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+
+/*Styles for the whole page.*/
+html {
+  font-size: 16px;
+}
+h1 {
+  font-size: 46px;
+}
+h2 {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 600px) {
+  /*.grid {
+  }*/
+  .seconddiv {
+    justify-content: center;
+  }
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 23px;
+  }
+  .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	/*font-family: 'Quattrocento Sans', sans-serif;*/
+	/*font-size: 100%;*/
+  /*background-color: #336070;*/
+
+}
+h1, h2 {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+span {
+    font-family: 'Lato', sans-serif;
+}
+
+body section {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#topdiv {
+  color: #fff;
+  background-color: #004E64;
+  display: -webkit-flex;
+  align-items: center;
+  height: 800px;
+  justify-content: center;
+  border-bottom: solid white 6px;
+}
+
+a {
+	text-decoration: none;
+	color:#666;
+}
+
+	a:hover{
+		color:#999;
+	}
+
+p {
+  font-family: 'Lato', sans-serif;
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+  color: #fff;
+}
+
+article {
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+}
+
+article h1 {
+  margin-bottom: 16px;
+  margin-top: 0;
+  color: #fff;
+}
+
+article p {
+  margin-right: 26px;
+  margin-left: 16px;
+  color: #fff;
+}
+
+.wrap{
+	max-width: 905px;
+	margin:30px;
+  text-align: center;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:10px;
+
+}
+
+.seconddiv {
+  background-color: #0F8B8D;
+  height: 800px;
+  border-bottom: solid white 6px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.seconddiv img{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: solid 8px rgba(32, 83, 97, 0.84);
+  background: url(../../static/images/pine.jpg) 100% center;
+
+}
+figure {
+  min-width: 240px;
+  width: 15em;
+  margin: 0 3rem;
+  display: flex;
+  justify-content: center;
+}
+/*portfolio div*/
+.container {
+  /*background-color: #049A8F;*/
+  background-color: #1282A2
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cell {
+    margin-top: 3rem;
+    margin: 1rem;
+}
